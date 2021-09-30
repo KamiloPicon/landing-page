@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-index {
+    height: 100%;
+    display:flex;
+    align-items:center;
+    padding-top:40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5f5;
+}
+
+.img-hombre{
+    -webkit-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    -moz-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+border-radius: 10px;
+width: 70%;
+}
+.img-equipo{
+    -webkit-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    -moz-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+border-radius: 10px;
+width: 90%;
+}
+.img-diploma{
+    -webkit-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    -moz-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+border-radius: 10px;
+width: 100%;
+}
+
+.formulario {
+    -webkit-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    -moz-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+        width: 430px;
+    padding: 30px;
+    margin:auto;
+    border-radius: 10px;
+    
+}
+.formulario2 {
+    -webkit-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    -moz-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+        width: 730px;
+    padding: 50px;
+    margin:auto;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.formulario .form-control {
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+footer{
+   
+    font-size: 18px;
+    background-color:  #2a2e33;
+    padding: 40px 0;
+    text-align: center;
+    color:white;
+    
+}
+.form-groupp{
+  width: 45%;
+}
+.tituloss{
+  text-align: center;
+}
+.form-group1{
+  width: 100%;
+  margin-bottom: 14px;
+}
+.botoncicos{
+  display: flex;
+  justify-content: space-evenly;
+}
+.botoncicos input[type="submit"], .botoncicos button{
+  width: 45%;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .body-index, .gold{
+        flex-direction: column;
+    }
+    .body-index .img-hombre,.body-index form,.img-equipo{
+        width: 90% ;
+        margin: 0 auto;
+    }
+    .img-hombre {
+      width: 90%;
+      text-align: center;
+      margin: 0 auto;
+      margin-left: 0 !important;
+      margin: 0 auto;
+      /* display: flex; */
+      /* justify-content: center; */
+      /* text-align: center; */
+      margin: 0 auto !important;
+      margin-bottom: 30px !important;
+        
+    }
+
+    
+
+
+}
+@media screen and (max-width: 750px) {
+  header .menu-contenedor {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    margin-left: 32px;
+
+}
+  
+}
+
+header {
+    -webkit-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    -moz-box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+    box-shadow: 0px -2px 18px 14px rgba(52,58,64,0.18);
+      background-color: #2a2e33;
+      opacity: 90%;
+      width: 100%;
+     margin-bottom: 3px;
+  }
+  
+  header .logo-contenedor {
+      margin-left: 32px;
+  }
+  
+  header .menu-contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;	
+      margin-right: 32px;
+      margin-left: 32px; 
+  
+  }
+  
+  
+  header .menu-contenedor a{
+      font-size: 18px;
+      line-height: 50px;
+      padding: 2px 8px;
+      text-decoration: none;
+      color: white;
+  }
+  
+  header a:hover {
+    color:#F7BD03;
+    text-decoration: none;
+  }
+  
+
+  
+  .contenedor-form button{
+      width:200px; 
+  }
+hr{
+  margin: 0 auto;
+}
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -0px; 
+    margin-left: 0px; 
+}
+.rightj{
+
+  margin-bottom: 15px;
+} 
+.rightj:nth-child(3), .rightj:nth-child(6){
+  margin-right: 0px;
+} 
+@media screen and (max-width: 480px) {
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+}
+  
+  @media screen and (max-width: 480px) {
+      .links{
+        display: flex;
+        flex-direction: column;
+      }
+  }
+  
